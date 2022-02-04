@@ -7,10 +7,10 @@ Check out the [Chroma whitepaper](doc/source/chroma.pdf) for information on how 
 
 Information about the historical development of Chroma can be found at the [bitbucket repository](https://chroma.bitbucket.io/index.html) this repository was forked from.
 
-# Modified chroma for SBC simulation
+## Modified chroma for SBC simulation
 The SBC collaboration wants to use [SBCgeant4](https://github.com/SBC-Collaboration) geometry in photon simulation. Chroma has a geometry interface for STL mesh, or GDML, a XML-based geometry languige. Current GDML interface is not perfect for use, and actually even has some defects. I modified the functions and classes in gdml.py to fit the need of SBC simulations.
 
-# Installation and quick use of Chroma
+## Installation and quick use of Chroma
 The source of chroma uses 'Docker' for maintainance and environment controlling. However, this can cause trouble for Windows system users. To solve this problem, we choose to use Cloud platforms provided by Google and other companies, which is also stable in environments and available to anyone who wants to engage in chroma. 
 
 To start using chroma on cloud platform, you will need to construct a VM instance including certain GPUs, using an ubuntu OS image. Google image for 'DEEP LEARNING' is well-constructed and worth trying. 
